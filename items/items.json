@@ -77,80 +77,80 @@
 	},
 	
 	{
-		"name": "Secret Potion",
+		"name": "Master's Mark",
 		"type": "toggle",
-		"img": "/images/Items/SecretPotion.png",
-		"codes": "SecretPotion"
+		"img": "/images/Items/MastersMark.png",
+		"codes": "MastersMark"
 	},
 	
 	{
-		"name": "Coupon 1",
+		"name": "Rental Coupon 1",
 		"type": "toggle",
-		"img": "/images/Items/coupon1.png",
-		"codes": "Coupon1"
+		"img": "/images/Items/RentalCoupon1.png",
+		"codes": "RentalCoupon1"
 	},
 	
 	{
-		"name": "Coupon 2",
+		"name": "Rental Coupon 2",
 		"type": "toggle",
-		"img": "/images/Items/coupon2.png",
-		"codes": "Coupon2"
+		"img": "/images/Items/RentalCoupon2.png",
+		"codes": "RentalCoupon2"
 	},
 	
 	{
-		"name": "Coupon 3",
+		"name": "Rental Coupon 3",
 		"type": "toggle",
-		"img": "/images/Items/coupon3.png",
-		"codes": "Coupon3"
+		"img": "/images/Items/RentalCoupon3.png",
+		"codes": "RentalCoupon3"
 	},
 	
 	{
-		"name": "Galactic Key",
+		"name": "Magma Stone",
 		"type": "toggle",
-		"img": "/images/Items/galactickey.png",
-		"codes": "GalacticKey"
+		"img": "/images/Items/MagmaStone.png",
+		"codes": "MagmaStone"
 	},
 	
 	{
-		"name": "Poke Radar",
+		"name": "Point Card",
 		"type": "toggle",
-		"img": "/images/Items/PokeRadar.png",
-		"codes": "PokeRadar"
+		"img": "/images/Items/PointCard.png",
+		"codes": "PointCard"
 	},
 	
 	{
-		"name": "Spray duck",
+		"name": "Gold Token",
 		"type": "toggle",
-		"img": "/images/Items/sprayduck.png",
-		"codes": "Sprayduck"
+		"img": "/images/Items/GoldToken.png",
+		"codes": "GoldToken"
 	},
 	
 	{
-		"name": "Suite Key",
+		"name": "Silver Token",
 		"type": "toggle",
-		"img": "/images/Items/suitekey.png",
-		"codes": "SuiteKey"
+		"img": "/images/Items/SilverToken.png",
+		"codes": "SilverToken"
 	},
 	
 	{
-		"name": "Vs.Seeker",
+		"name": "Castle Point Card",
 		"type": "toggle",
-		"img": "/images/Items/vs-seeker.png",
-		"codes": "Vs.Seeker"
+		"img": "/images/Items/CastlePointCard.png",
+		"codes": "CastlePointCard"
 	},
 	
 	{
-		"name": "Works Key",
+		"name": "Hall Pass",
 		"type": "toggle",
-		"img": "/images/Items/workskey.png",
-		"codes": "WorksKey"
+		"img": "/images/Items/HallPass.png",
+		"codes": "HallPass"
 	},
 	
 	{
-		"name": "Secret Key",
+		"name": "Machine Part",
 		"type": "toggle",
-		"img": "/images/Items/secretkey.png",
-		"codes": "SecretKey"
+		"img": "/images/Items/MachinePart.png",
+		"codes": "MachinePart"
 	},
 	
 	{
@@ -553,73 +553,285 @@
 	},
 	
 	{
-		"name": "Snorlax",
-		"type": "toggle",
-		"img": "/images/Items/snorlax.png",
-		"codes": "Snorlax"
+		"name": "Castle Points",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "0 Castle Points",
+				"img": "/images/Items/CastlePoints00.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints0"
+			},
+			{
+				"name": "1 Castle Point",
+				"img": "/images/Items/CastlePoints01.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints1"
+			},
+			{
+				"name": "2 Castle Points",
+				"img": "/images/Items/CastlePoints02.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints2"
+			},
+			{
+				"name": "3 Castle Points",
+				"img": "/images/Items/CastlePoints03.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints3"
+			},
+			{
+				"name": "4 Castle Points",
+				"img": "/images/Items/CastlePoints04.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints4"
+			},
+			{
+				"name": "5 Castle Points",
+				"img": "/images/Items/CastlePoints05.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints5"
+			},
+			{
+				"name": "6 Castle Points",
+				"img": "/images/Items/CastlePoints06.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints6"
+			},
+			{
+				"name": "7 Castle Points",
+				"img": "/images/Items/CastlePoints07.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints7"
+			},
+			{
+				"name": "8 Castle Points",
+				"img": "/images/Items/CastlePoints08.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints8"
+			},
+			{
+				"name": "9 Castle Points",
+				"img": "/images/Items/CastlePoints09.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints9"
+			},
+			{
+				"name": "10 Castle Points",
+				"img": "/images/Items/CastlePoints10.png",
+				"inherit_codes": false,
+				"codes": "CastlePoints10"
+			}
+		],
+		"codes": "CastlePoints"
 	},
 	
 	{
-		"name": "Kecleon",
-		"type": "toggle",
-		"img": "/images/Items/kek.png",
-		"codes": "Kecleon"
+		"name": "BP",
+		"type": "progressive",
+		"loop": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "0 BP",
+				"img": "/images/Items/BP000.png",
+				"inherit_codes": false,
+				"codes": "0BP"
+			},
+			{
+				"name": "10 BP",
+				"img": "/images/Items/BP010.png",
+				"inherit_codes": false,
+				"codes": "10BP"
+			},
+			{
+				"name": "20 BP",
+				"img": "/images/Items/BP020.png",
+				"inherit_codes": false,
+				"codes": "20BP"
+			},
+			{
+				"name": "30 BP",
+				"img": "/images/Items/BP030.png",
+				"inherit_codes": false,
+				"codes": "30BP"
+			},
+			{
+				"name": "40 BP",
+				"img": "/images/Items/BP040.png",
+				"inherit_codes": false,
+				"codes": "40BP"
+			},
+			{
+				"name": "50 BP",
+				"img": "/images/Items/BP050.png",
+				"inherit_codes": false,
+				"codes": "50BP"
+			},
+			{
+				"name": "60 BP",
+				"img": "/images/Items/BP060.png",
+				"inherit_codes": false,
+				"codes": "60BP"
+			},
+			{
+				"name": "70 BP",
+				"img": "/images/Items/BP070.png",
+				"inherit_codes": false,
+				"codes": "70BP"
+			},
+			{
+				"name": "80 BP",
+				"img": "/images/Items/BP080.png",
+				"inherit_codes": false,
+				"codes": "80BP"
+			},
+			{
+				"name": "90 BP",
+				"img": "/images/Items/BP090.png",
+				"inherit_codes": false,
+				"codes": "90BP"
+			},
+			{
+				"name": "100 BP",
+				"img": "/images/Items/BP100.png",
+				"inherit_codes": false,
+				"codes": "100BP"
+			},
+			{
+				"name": "110 BP",
+				"img": "/images/Items/BP110.png",
+				"inherit_codes": false,
+				"codes": "110BP"
+			},
+			{
+				"name": "120 BP",
+				"img": "/images/Items/BP120.png",
+				"inherit_codes": false,
+				"codes": "120BP"
+			},
+			{
+				"name": "130 BP",
+				"img": "/images/Items/BP130.png",
+				"inherit_codes": false,
+				"codes": "130BP"
+			},
+			{
+				"name": "140 BP",
+				"img": "/images/Items/BP140.png",
+				"inherit_codes": false,
+				"codes": "140BP"
+			},
+			{
+				"name": "150 BP",
+				"img": "/images/Items/BP150.png",
+				"inherit_codes": false,
+				"codes": "150BP"
+			},
+			{
+				"name": "160 BP",
+				"img": "/images/Items/BP160.png",
+				"inherit_codes": false,
+				"codes": "160BP"
+			},
+			{
+				"name": "170 BP",
+				"img": "/images/Items/BP170.png",
+				"inherit_codes": false,
+				"codes": "170BP"
+			},
+			{
+				"name": "180 BP",
+				"img": "/images/Items/BP180.png",
+				"inherit_codes": false,
+				"codes": "180BP"
+			},
+			{
+				"name": "190 BP",
+				"img": "/images/Items/BP190.png",
+				"inherit_codes": false,
+				"codes": "190BP"
+			},
+			{
+				"name": "200 BP",
+				"img": "/images/Items/BP200.png",
+				"inherit_codes": false,
+				"codes": "200BP"
+			}
+		],
+		"codes": "BP"
 	},
 	
 	{
-		"name": "Pachirisu",
+		"name": "HallPrint",
 		"type": "toggle",
-		"img": "/images/Items/pachirisu.png",
-		"codes": "Pachirisu"
+		"img": "/images/Items/HallPrint.png",
+		"codes": "HallPrint"
+	},
+	
+	{
+		"name": "ArcadePrint",
+		"type": "toggle",
+		"img": "/images/Items/ArcadePrint.png",
+		"codes": "ArcadePrint"
+	},
+	
+	{
+		"name": "FactoryPrint",
+		"type": "toggle",
+		"img": "/images/Items/FactoryPrint.png",
+		"codes": "FactoryPrint"
 	},
                     
                     {
-		"name": "S.S. Ticket",
+		"name": "CastlePrint",
 		"type": "toggle",
-		"img": "/images/Items/SSTicket.png",
-		"codes": "S.S.Ticket"
+		"img": "/images/Items/CastlePrint.png",
+		"codes": "CastlePrint"
 	},
 
 	{
-		"name": "Azure Flute",
+		"name": "Argenta Defeated",
 		"type": "toggle",
-		"img": "/images/Items/azureflute.png",
-		"codes": "azureflute"
+		"img": "/images/Items/Argenta.png",
+		"codes": "argenta"
 	},
 
 	{
-		"name": "Oak's Letter",
+		"name": "Dahlia Defeated",
 		"type": "toggle",
-		"img": "/images/Items/oaksletter.png",
-		"codes": "oaksletter"
+		"img": "/images/Items/Dahlia.png",
+		"codes": "dahlia"
 	},
 
 	{
-		"name": "Member Card",
+		"name": "Thorton Defeated",
 		"type": "toggle",
-		"img": "/images/Items/membercard.png",
-		"codes": "membercard"
+		"img": "/images/Items/Thorton.png",
+		"codes": "thorton"
 	},
 	
 	{
-		"name": "Old Charm",
+		"name": "Darach Defeated",
 		"type": "toggle",
-		"img": "/images/Items/OldCharm.png",
-		"codes": "OldCharm"
+		"img": "/images/Items/Darach.png",
+		"codes": "darach"
 	},
 
 	{
-		"name": "Storage Key",
+		"name": "Regirock Defeated",
 		"type": "toggle",
-		"img": "/images/Items/StorageKey.png",
-		"codes": "StorageKey"
+		"img": "/images/Items/Regirock.png",
+		"codes": "regirock"
 	},
 
 	{
-		"name": "Marsh Pass",
+		"name": "Palmer Defeated",
 		"type": "toggle",
-		"img": "/images/Items/MarshPass.png",
-		"codes": "MarshPass"
+		"img": "/images/Items/Palmer.png",
+		"codes": "palmer"
 	},
 
 	{

@@ -28,40 +28,40 @@
 						"HM02Fly",
 						"HM03Surf",
 						"HM04Strength",
-						"HM05Defog",
 						"HM06RockSmash",
 						"HM07Waterfall",
-						"HM08RockClimb"
+						"HM08RockClimb",
+						"TM70-Flash"
 					],
 					[
-						"TM70-Flash",
-						"Parcel",
-						"Coupon1",
-						"Coupon2",
-						"Coupon3",
-						"Poketch",
-						"Bicycle",
-						"ProgressivePokedex"
+						"HallPass",
+						"GoldToken",
+						"SilverToken",
+						"RentalCoupon1",
+						"RentalCoupon2",
+						"RentalCoupon3",
+						"CastlePointCard",
+						"MachinePart"
 					],
 					[
-						"WorksKey",
-						"SuiteKey",
-						"SecretPotion",
-						"OldCharm",
-						"GalacticKey",
-						"S.S.Ticket",
-						"StorageKey",
-						"MarshPass"
+						"MastersMark",
+						"MagmaStone",
+						"HallPrint",
+						"ArcadePrint",
+						"FactoryPrint",
+						"CastlePrint",
+						"CastlePoints",
+						"BP"
 					],
 					[
 						"Pachirisu",
 						"Snorlax",
 						"Kecleon",
-						"SuperRod",
-						"SecretKey",
-						"membercard",
-						"oaksletter",
-						"azureflute"
+						"Poketch",
+						"DowsingMachineApp",
+						"TheCock",
+						"Thedick",
+						"surprisepussy"
 					]
 				]
 			}
@@ -83,80 +83,21 @@
 				"rows": [
 					[
 						"DowsingMachineApp",
-						"DigitalWatchApp",
-						"CalculatorApp",
 						"MemoPadApp",
-						"PedometerApp"
+						"PedometerApp",
+						"PokemonListApp"
 					],
 					[
-						"PokemonListApp",
 						"FriendshipCheckerApp",
-						"StopwatchApp",
-						"BerrySearcherApp",
-						"Day-CareCheckerApp"
-					],
-					[
 						"PokemonHistoryApp",
 						"CounterApp",
-						"AnalogWatchApp",
-						"MarkingMapApp",
-						"LinkSearcherApp",
+						"CoinTossApp"
 					],
 					[
-						"CoinTossApp",
-						"MoveTesterApp",
-						"CalendarApp",
 						"DotArtistApp",
-						"RouletteApp"
-					],
-					[
-						"ChainCounterApp",
-						"KitchenTimerApp",
+						"RouletteApp",
 						"ColorChangerApp",
-						"MatchupCheckerApp",
 						"AlarmClockApp"
-					]
-				]
-			}
-		]
-	},
-	"plates_grid": {
-		"type": "array",
-		"orientation": "horizontal",
-		"margin": "0,0",
-		"content": [
-			{
-				"type": "itemgrid",
-				"item_margin": "2,2",
-				"h_alignment": "left",
-				"item_h_alignment": "center",
-				"item_v_alignment": "center",
-				"item_height": 36,
-				"item_width": 36,
-				"rows": [
-					[
-						"FistPlate",
-						"SkyPlate",
-						"ToxicPlate",
-						"EarthPlate"
-					],
-					[
-						"StonePlate",
-						"InsectPlate",
-						"SpookyPlate",
-						"IronPlate"
-					],
-					[
-						"ZapPlate",
-						"FlamePlate",
-						"SplashPlate",
-						"MeadowPlate"
-					],
-					[
-						"MindPlate",
-						"IciclePlate",
-						"DracoPlate",
-						"DreadPlate"
 					]
 				]
 			}
@@ -177,25 +118,12 @@
 				"item_width": 36,
 				"rows": [
 					[
-						"event_oreburgh",
-						"event_veilstone",
-						"event_pastoria",
-						"event_canalave",
-						"event_palpark"
-					],
-					[
-						"event_warehouse",
-						"event_saturn",
-						"event_mars",
-						"event_jupiter",
-						"event_galactichq"
-					],
-					[
-						"event_bombs",
-						"event_guardians",
-						"event_distortion",
-						"event_arceus",
-						"event_cynthia"
+						"argenta",
+						"dahlia",
+						"thorton",
+						"darach",
+						"regirock",
+						"palmer"
 					]
 				]
 			}
