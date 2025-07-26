@@ -1,0 +1,11 @@
+
+{
+	"versions": [
+		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/Linneus/Platinum-Battle-Zone-Poptracker/archive/refs/tags/1.0.zip",
+			"sha256": "84596d19d9f6d70de35ffb8a5251b141d672a28bcdc430e0015479d27951c3c5",
+			"changelog": ["First Release"]
+		}
+	]
+}
