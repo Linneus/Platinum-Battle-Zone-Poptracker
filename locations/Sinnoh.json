@@ -59,9 +59,6 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$north"
-                ],
                 "sections": [
                     {
                         "name": "Battle Tower - Defeat Palmer",
@@ -104,12 +101,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$north"
+                    "PointCard"
                 ],
                 "sections": [
                     {
                         "name":  "Battle Frontier - BP Shop 1",
-                        "access_rules": ["S.S.Ticket"],
+                        "access_rules": ["10BP"],
                         "item_count": 1
                     },
                     {
