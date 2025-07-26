@@ -52,27 +52,27 @@
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 537, "y": 1741}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Bottom Left Item"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - SW Item"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 937, "y": 1745}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Bottom Right Item"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - SE Item"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 505, "y": 1514}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Top Left Item"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - NW Item"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 807, "y": 1509}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Top Right Item"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - NE Item"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 807, "y": 1473}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Hidden Item Behind Top Right Item"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/First Room - Hidden Item Behind NE Item"}]
 			},
 			{
 				"name": "",
@@ -82,12 +82,12 @@
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 312, "y": 1269}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item Down Southwest Rock Climb Slope"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item Down SW Rock Climb Slope"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 200, "y": 1329}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in Southwest Pit"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in SW Pit"}]
 			},
 			{
 				"name": "",
@@ -107,12 +107,12 @@
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 839, "y": 1311}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item to Left of Southeast Pit"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item to Left of SE Pit"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 904, "y": 1343}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in Southeast Pit"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in SE Pit"}]
 			},
 			{
 				"name": "",
@@ -127,12 +127,12 @@
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 1175, "y": 517}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item on Northeast Hill"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item on NE Hill"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 1481, "y": 344}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in Northeast Corner"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Item in NE Corner"}]
 			},
 			{
 				"name": "",
@@ -147,7 +147,152 @@
 			{
 				"name": "",
 				"map_locations": [{"map":  "starkmountaincavern", "x": 233, "y": 526}],
-				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item on Bottom Right Rock in Northwest Corner"}]
+				"sections": [{"ref": "Sinnoh/Stark Mountain Cave/Hidden Item on Bottom Right Rock in NW Corner"}]
+			}
+		]
+	},
+	{
+		"name": "Rock Peak Ruins",
+		"children": [
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 533, "y": 1223}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Entry - Item in Center"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 593, "y": 1171}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Entry - Hidden Item Near Top Right"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 398, "y": 922}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item By Water Near Entrance"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 628, "y": 852}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item Down Corridor"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 946, "y": 434}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item in NE Hole 1"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 905, "y": 404}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item in NE Hole 2"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 608, "y": 448}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item By Pool Near Exit"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 534, "y": 120}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Battle Regirock"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 770, "y": 903}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item Past SE Pool"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 459, "y": 626}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item Between Bike Bridges"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 98, "y": 429}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item West of Waterfall"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 325, "y": 539}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item Under Bike Bridge"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 224, "y": 765}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Item Between Bike Jumps"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 174, "y": 341}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/First Item Up Waterfall"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 205, "y": 44}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 1"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 185, "y": 65}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 2"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 165, "y": 44}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 3"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 145, "y": 65}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 4"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 125, "y": 44}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 5"}
+				]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map":  "rockpeakruins", "x": 105, "y": 65}],
+				"sections": [
+					{"ref": "Sinnoh/Rock Peak Ruins/Waterfall Room 6"}
+				]
 			}
 		]
 	}

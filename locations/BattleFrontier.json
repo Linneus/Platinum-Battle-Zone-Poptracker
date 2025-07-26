@@ -1,0 +1,217 @@
+[
+	{
+		"name": "Battle Frontier",
+		"children": [
+			{
+                "name": "Battle Tower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Battle Tower - Defeat Palmer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 668,
+                        "y": 116,
+                        "size": 35
+                    }
+                ]
+            },
+			{
+                "name": "Battle Hall",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Battle Hall - Defeat Argenta"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Argenta Reward 1"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Argenta Reward 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 152,
+                        "y": 327,
+                        "size": 35
+                    }
+                ]
+            },
+			{
+                "name": "Battle Factory",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Battle Factory - Defeat Thorton"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Thorton Reward 1"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Thorton Reward 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 1186,
+                        "y": 327,
+                        "size": 35
+                    }
+                ]
+            },
+			{
+                "name": "Battle Arcade",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Battle Arcade - Defeat Dahlia"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Dahlia Reward 1"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Dahlia Reward 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 966,
+                        "y": 692,
+                        "size": 35
+                    }
+                ]
+            },
+			{
+                "name": "Battle Castle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Battle Castle - Defeat Darach"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Darach Reward 1"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Frontier/Darach Reward 2"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Castle/Battle Castle - Machine Item 1"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Castle/Battle Castle - Machine Item 2"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Castle/Battle Castle - Machine Item 3"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Castle/Battle Castle - Machine Item 4"
+                    },
+                    {
+                        "ref": "Sinnoh/Battle Castle/Battle Castle - Machine Item 5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 387,
+                        "y": 692,
+                        "size": 35
+                    }
+                ]
+            },
+			{
+                "name": "BP Shop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "sections": [
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 1"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 2"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 3"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 4"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 5"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 6"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 7"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 8"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 9"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 10"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 11"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 12"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 13"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 14"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 15"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 16"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 17"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 18"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 19"
+                    },
+                    {
+                        "ref": "Sinnoh/BP Shop/BP Shop 20"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "battlefrontier",
+                        "x": 615,
+                        "y": 519,
+                        "size": 35
+                    }
+                ]
+            }
+		]	
+	}		
+]

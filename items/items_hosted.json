@@ -1,43 +1,43 @@
 [
     {
-        "name": "Event: Beat Oreburgh Gym",
+        "name": "Event: Beat Regirock",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Roark.png",
-        "codes": "event_oreburgh_hosted"
+        "img": "images/Items/Regirock.png",
+        "codes": "event_regirock_hosted"
     },
     {
-        "name": "Event: Beat Veilstone Gym",
+        "name": "Event: Beat Argenta",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Maylene.png",
-        "codes": "event_veilstone_hosted"
+        "img": "images/Items/Argenta.png",
+        "codes": "argenta"
     },
     {
-        "name": "Event: Beat Pastoria Gym",
+        "name": "Event: Beat Dahlia",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Wake.png",
-        "codes": "event_pastoria_hosted"
+        "img": "images/Items/Dahlia.png",
+        "codes": "dahlia"
     },
     {
-        "name": "Event: Beat Canalave Gym",
+        "name": "Event: Beat Thorton",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Byron.png",
-        "codes": "event_canalave_hosted"
+        "img": "images/Items/Thorton.png",
+        "codes": "thorton"
     },
     {
-        "name": "Event: Defeat Saturn at Lake Valor",
+        "name": "Event: Beat Darach",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Saturn.png",
-        "codes": "event_saturn_hosted"
+        "img": "images/Items/Darach.png",
+        "codes": "darach"
     },
     {
         "name": "Event: Defeat Mars at Lake Verity",

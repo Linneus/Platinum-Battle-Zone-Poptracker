@@ -77,8 +77,8 @@
                 "sections": [
                     {
                         "name": "Battle Tower - Defeat Palmer",
-						"chest_unopened_img": "/images/items/PalmerDim.png",
-						"chest_opened_img": "/images/items/Palmer.png",
+						"chest_opened_img": "/images/items/PalmerDim.png",
+						"chest_unopened_img": "/images/items/Palmer.png",
                         "access_rules": ["$tycoon"],
                         "item_count": 1
                     },
@@ -402,24 +402,28 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Item on Northern Ledge",
+                        "name": "Item on Northern Rock Climb Ledge",
                         "access_rules": ["$rockclimb"],
                         "item_count": 1
                     },
                     {
                         "name": "Berry Tree 1",
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     },
                     {
                         "name": "Berry Tree 2",
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     },
                     {
                         "name": "Berry Tree 3",
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     },
                     {
                         "name": "Berry Tree 4",
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     }
                 ],

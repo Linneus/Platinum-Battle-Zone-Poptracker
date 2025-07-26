@@ -27,6 +27,21 @@
 				"name": "",
 				"map_locations": [{"map": "fightarea", "x": 328, "y": 89}],
 				"sections": [{"ref": "Sinnoh/Fight Area/Super Rod from Fisherman"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "fightarea", "x": 632, "y": 157}],
+				"sections": [{"ref": "Sinnoh/Fight Area/Pokémon Center Basement - Pal Pad from Teala"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "fightarea", "x": 527, "y": 167, "size": 30}],
+				"sections": [
+					{"ref": "Sinnoh/Fight Area/Berry Tree 1"},
+					{"ref": "Sinnoh/Fight Area/Berry Tree 2"},
+					{"ref": "Sinnoh/Fight Area/Berry Tree 3"},
+					{"ref": "Sinnoh/Fight Area/Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -51,7 +66,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "survivalarea", "x": 155, "y": 394}],
-				"sections": [{"ref": "Sinnoh/Survival Area/Hidden Item in Corner of Southwest Trees"}]
+				"sections": [{"ref": "Sinnoh/Survival Area/Hidden Item in Corner of SW Trees"}]
 			}
 		]
 	},
@@ -67,6 +82,22 @@
 				"name": "",
 				"map_locations": [{"map": "resortarea", "x": 361, "y": 326}],
 				"sections": [{"ref": "Sinnoh/Resort Area/Hidden Item in Front of Villa"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "resortarea", "x": 272, "y": 277, "size": 20}],
+				"sections": [
+					{"ref": "Sinnoh/Resort Area/Villa Berry Tree 1"},
+					{"ref": "Sinnoh/Resort Area/Villa Berry Tree 2"}
+					]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "resortarea", "x": 449, "y": 277, "size": 20}],
+				"sections": [
+					{"ref": "Sinnoh/Resort Area/Villa Berry Tree 3"},
+					{"ref": "Sinnoh/Resort Area/Villa Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -86,7 +117,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route225", "x": 167, "y": 1037}],
-				"sections": [{"ref": "Sinnoh/Route 225/Item on Bottom Left of Grassy Hills Above Trainer Trio"}]
+				"sections": [{"ref": "Sinnoh/Route 225/Item SW in Bridge Section"}]
 			},
 			{
 				"name": "",
@@ -96,12 +127,12 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route225", "x": 455, "y": 911}],
-				"sections": [{"ref": "Sinnoh/Route 225/Hidden Item on Top Right of Grassy Hills Above Trainer Trio"}]
+				"sections": [{"ref": "Sinnoh/Route 225/Hidden Item in Grass NE in Bridge Section"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route225", "x": 57, "y": 922}],
-				"sections": [{"ref": "Sinnoh/Route 225/Item on West Side of Bridge Section"}]
+				"sections": [{"ref": "Sinnoh/Route 225/Item West of Bridge Section"}]
 			},
 			{
 				"name": "",
@@ -136,7 +167,17 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route225", "x": 326, "y": 29}],
-				"sections": [{"ref": "Sinnoh/Route 225/Item on Northern Ledge"}]
+				"sections": [{"ref": "Sinnoh/Route 225/Item on Northern Rock Climb Ledge"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "route225", "x": 64, "y": 269, "size": 25}],
+				"sections": [
+					{"ref": "Sinnoh/Route 225/Berry Tree 1"},
+					{"ref": "Sinnoh/Route 225/Berry Tree 2"},
+					{"ref": "Sinnoh/Route 225/Berry Tree 3"},
+					{"ref": "Sinnoh/Route 225/Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -146,32 +187,32 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 238, "y": 315}],
-				"sections": [{"ref": "Sinnoh/Route 226/Item in Southwest Trees"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Item in SW Trees"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 287, "y": 109}],
-				"sections": [{"ref": "Sinnoh/Route 226/Item on Ledge Below Berry Trees"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Item on Ledge Below Berry Patch"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 671, "y": 226}],
-				"sections": [{"ref": "Sinnoh/Route 226/Item on Ledge Below Two Trainers"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Item on Ledge Below Ace Trainers"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 702, "y": 163}],
-				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Ledge Near Lake 1"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Plateau Near Lake 1"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 781, "y": 175}],
-				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Ledge Near Lake 2"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Plateau Near Lake 2"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 766, "y": 138}],
-				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Ledge Near Lake 3"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item on Grassy Plateau Near Lake 3"}]
 			},
 			{
 				"name": "",
@@ -181,7 +222,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 1099, "y": 94}],
-				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item in the Tree Gap Northeast of Meister's House"}]
+				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item in the Tree Gap North of Meister's House"}]
 			}
 		]
 	},
@@ -191,7 +232,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route227", "x": 247, "y": 192}],
-				"sections": [{"ref": "Sinnoh/Route 227/Item in Grass on Ledges"}]
+				"sections": [{"ref": "Sinnoh/Route 227/Item By Grass on Ledges"}]
 			},
 			{
 				"name": "",
@@ -221,17 +262,17 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route228", "x": 118, "y": 1087}],
-				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item in Southwest Grass"}]
+				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item in SW Grass"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route228", "x": 407, "y": 1051}],
-				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item in Southeast Corner by Rock"}]
+				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item in SE Corner by Rock"}]
 			},
 			{
 				"name": "",
 				"map_locations": [{"map": "route228", "x": 420, "y": 855}],
-				"sections": [{"ref": "Sinnoh/Route 228/Item Across Bike Rails South of Two Trainers"}]
+				"sections": [{"ref": "Sinnoh/Route 228/Item Across Bike Rail Above Vents"}]
 			},
 			{
 				"name": "",
@@ -266,7 +307,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route228", "x": 163, "y": 137}],
-				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item Below Northwest Trainer"}]
+				"sections": [{"ref": "Sinnoh/Route 228/Hidden Item By North Trainer"}]
 			},
 			{
 				"name": "",
@@ -274,19 +315,19 @@
 				"sections": [{"ref": "Sinnoh/Route 228/Item in Northernmost Pit"}]
 			},
 			{
-				"name": "rockpeak",
-				"map_locations": [{"map": "route228", "x": 280, "y": 324}],
-				"sections": [{"ref": "Sinnoh/Route 228/"}]
+				"name": "Rock Peak Ruins Entry",
+				"map_locations": [{"map": "route228", "x": 278, "y": 323}],
+				"sections": [{"ref": "Sinnoh/Rock Peak Ruins/Entry - Item in Center"}, {"ref": "Sinnoh/Rock Peak Ruins/Entry - Hidden Item Near Top Right"}]
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "route228", "x": 687, "y": 432}],
-				"sections": [{"ref": "Sinnoh/Route 228/Rock Peak Ruins - Item in Center"}]
-			},
-			{
-				"name": "",
-				"map_locations": [{"map": "route228", "x": 758, "y": 390}],
-				"sections": [{"ref": "Sinnoh/Route 228/Rock Peak Ruins - Hidden Item Near Top Right"}]
+				"map_locations": [{"map": "route228", "x": 207, "y": 900, "size": 25}],
+				"sections": [
+					{"ref": "Sinnoh/Route 228/Berry Tree 1"},
+					{"ref": "Sinnoh/Route 228/Berry Tree 2"},
+					{"ref": "Sinnoh/Route 228/Berry Tree 3"},
+					{"ref": "Sinnoh/Route 228/Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -301,7 +342,7 @@
 			{
 				"name": "",
 				"map_locations": [{"map": "route229", "x": 971, "y": 62}],
-				"sections": [{"ref": "Sinnoh/Route 229/Item in Northeast"}]
+				"sections": [{"ref": "Sinnoh/Route 229/Item in NE Corner"}]
 			},
 			{
 				"name": "",
@@ -318,6 +359,16 @@
 				"name": "",
 				"map_locations": [{"map": "route229", "x": 876, "y": 364}],
 				"sections": [{"ref": "Sinnoh/Route 229/Hidden Item Southwest of Pond"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "route229", "x": 705, "y": 235, "size": 25}],
+				"sections": [
+					{"ref": "Sinnoh/Route 229/Berry Tree 1"},
+					{"ref": "Sinnoh/Route 229/Berry Tree 2"},
+					{"ref": "Sinnoh/Route 229/Berry Tree 3"},
+					{"ref": "Sinnoh/Route 229/Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -326,23 +377,33 @@
 		"children": [
 			{
 				"name": "",
-				"map_locations": [{"map": "route230", "x": 586, "y": 170}],
-				"sections": [{"ref": "Sinnoh/Route 230/Item on Left of Island"}]
+				"map_locations": [{"map": "route230", "x": 620, "y": 264}],
+				"sections": [{"ref": "Sinnoh/Route 230/Item on Island West Side"}]
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "route230", "x": 748, "y": 23}],
-				"sections": [{"ref": "Sinnoh/Route 230/Hidden Island at Top of Island"}]
+				"map_locations": [{"map": "route230", "x": 788, "y": 58}],
+				"sections": [{"ref": "Sinnoh/Route 230/Hidden Item on Island North Side"}]
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "route230", "x": 856, "y": 117}],
-				"sections": [{"ref": "Sinnoh/Route 230/Hidden Item on Right of Island Above Breakable Rock"}]
+				"map_locations": [{"map": "route230", "x": 904, "y": 194}],
+				"sections": [{"ref": "Sinnoh/Route 230/Hidden Item on Island East Side Behind Breakable Rock"}]
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "route230", "x": 889, "y": 130}],
-				"sections": [{"ref": "Sinnoh/Route 230/Item on Far Right of Island"}]
+				"map_locations": [{"map": "route230", "x": 941, "y": 196}],
+				"sections": [{"ref": "Sinnoh/Route 230/Item on Island East Side"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "route230", "x": 235, "y": 74, "size": 29}],
+				"sections": [
+					{"ref": "Sinnoh/Route 230/Berry Tree 1"},
+					{"ref": "Sinnoh/Route 230/Berry Tree 2"},
+					{"ref": "Sinnoh/Route 230/Berry Tree 3"},
+					{"ref": "Sinnoh/Route 230/Berry Tree 4"}
+					]
 			}
 		]
 	},

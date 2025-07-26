@@ -52,16 +52,16 @@
 		"allow_disabled": false,
 		"stages": [
 			{
+				"name": "Dowsing Machine App Required",
+				"img": "/images/Items/dowsing-machine.png",
+				"codes": "opt_dowsing_on",
+				"inherit_codes": false
+			},
+			{
 				"name": "Dowsing Machine App NOT Required",
 				"img": "/images/Items/dowsing-machine_dim.png",
 				"img_mods": "@disabled",
 				"codes": "opt_dowsing_off",
-				"inherit_codes": false
-			},
-			{
-				"name": "Dowsing Machine App Required",
-				"img": "/images/Items/dowsing-machine.png",
-				"codes": "opt_dowsing_on",
 				"inherit_codes": false
 			}
 		]
