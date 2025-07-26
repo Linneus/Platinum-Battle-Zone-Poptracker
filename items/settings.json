@@ -1,114 +1,5 @@
 [
 	{
-		"name": "Flash From Shop",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": true,
-		"codes": "opt_flash",
-		"stages": [
-			{
-				"img": "/images/Items/BuyFlash.png",
-				"img_mods": "@disabled",
-				"codes": "opt_flash_off",
-				"inherit_codes": false,
-				"name": "Don't Buy Flash"
-			},
-			{
-				"img": "/images/Items/BuyFlash.png",
-				"codes": "opt_flash_on",
-				"inherit_codes": false,
-				"name": "Buy Flash"
-			}
-		]
-	},
-	{
-		"name": "North Sinnoh Fly Logic",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": true,
-		"codes": "opt_fly_north",
-		"stages": [
-			{
-				"img": "/images/Items/NoNorthSinnohFly.png",
-				"codes": "opt_fly_north_off",
-				"inherit_codes": false,
-				"name": "Fly not required for North Sinnoh"
-			},
-			{
-				"img": "/images/Items/NorthSinnohFly.png",
-				"codes": "opt_fly_north_on",
-				"inherit_codes": false,
-				"name": "Fly required for North Sinnoh"
-			}
-		]
-	},
-	{
-		"name": "Traverse Fog",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": true,
-		"codes": "opt_defog_cross",
-		"stages": [
-			{
-				"img": "/images/Items/FogTraversal.png",
-				"img_mods": "@disabled",
-				"codes": "opt_defog_cross_on",
-				"inherit_codes": false,
-				"name": "Defog not required to cross fog"
-			},
-			{
-				"img": "/images/Items/FogTraversal.png",
-				"codes": "opt_defog_cross_off",
-				"inherit_codes": false,
-				"name": "Defog required to cross fog"
-			}
-		]
-	},
-	{
-		"name": "Items in Fog",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": true,
-		"codes": "opt_defog_items",
-		"stages": [
-			{
-				"img": "/images/Items/FogItems.png",
-				"img_mods": "@disabled",
-				"codes": "opt_defog_items_on",
-				"inherit_codes": false,
-				"name": "Defog not required for fog items"
-			},
-			{
-				"img": "/images/Items/FogItems.png",
-				"codes": "opt_defog_items_off",
-				"inherit_codes": false,
-				"name": "Defog required for fog items"
-			}
-		]
-	},
-	{
-		"name": "Battle Zone",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": true,
-		"codes": "opt_bz",
-		"stages": [
-			{
-				"img": "/images/Items/BattleZone.png",
-				"img_mods": "@disabled",
-				"codes": "opt_bz_off",
-				"inherit_codes": false,
-				"name": "Battle Zone Removed"
-			},
-			{
-				"img": "/images/Items/BattleZone.png",
-				"codes": "opt_bz_on",
-				"inherit_codes": false,
-				"name": "Battle Zone Shuffled"
-			}
-		]
-	},
-	{
 		"name": "Victory Condition",
 		"type": "progressive",
 		"loop": true,
@@ -134,20 +25,20 @@
 		"name": "Shuffle Hiddens",
 		"type": "progressive",
 		"codes": "opt_hidden",
-		"loop": false,
+		"loop": true,
 		"inherit_codes": false,
 		"allow_disabled": false,
 		"stages": [
 			{
-				"name": "Hidden Items Not Randomized",
-				"img": "/images/Items/HiddensOff.png",
-				"codes": "opt_hidden_off",
-				"inherit_codes": false
-			},
-			{
 				"name": "Hidden Items Randomized",
 				"img": "/images/Items/HiddensOn.png",
 				"codes": "opt_hidden_on",
+				"inherit_codes": false
+			},
+			{
+				"name": "Hidden Items Not Randomized",
+				"img": "/images/Items/HiddensOff.png",
+				"codes": "opt_hidden_off",
 				"inherit_codes": false
 			}
 		]
@@ -171,30 +62,6 @@
 				"name": "Dowsing Machine App Required",
 				"img": "/images/Items/dowsing-machine.png",
 				"codes": "opt_dowsing_on",
-				"inherit_codes": false
-			}
-		]
-	},
-	{
-		"name": "Route 217 Dowsing App",
-		"type": "progressive",
-		"codes": "opt_217",
-		"loop": false,
-		"inherit_codes": false,
-		"allow_disabled": false,
-		"stages": [
-			{
-				"name": "Route 217 - Dowsing Not Required",
-				"img": "/images/Items/dowsing-machine_dim.png",
-				"img_mods": "overlay|/images/Items/route_217.png,@disabled",
-				"codes": "opt_217_off",
-				"inherit_codes": false
-			},
-			{
-				"name": "Route 217 - Dowsing Required",
-				"img": "/images/Items/dowsing-machine.png",
-				"img_mods": "overlay|/images/Items/route_217.png,",
-				"codes": "opt_217_on",
 				"inherit_codes": false
 			}
 		]

@@ -160,7 +160,19 @@ end
 
 function rockpeak2()
 	return (
-		rockpeak1() and has("regirock") and surf()
+		rockpeak1() and has("RegirockDefeated") and surf()
+	)
+end
+
+function rockpeakfirstitem()
+	return (
+		(rocksmash() and rockpeak1()) or rockpeak2()
+	)
+end
+
+function mudslides()
+	return (
+		has("Bicycle") or fly()
 	)
 end
 

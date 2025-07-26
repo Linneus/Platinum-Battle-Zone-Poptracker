@@ -30,18 +30,33 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$north"
-                ],
                 "sections": [
                     {
                         "name": "Gift from Woman in Poke Mart",
-                        "access_rules": ["S.S.Ticket"],
                         "item_count": 1
                     },
                     {
                         "name": "Super Rod from Fisherman",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pokémon Center Basement - Pal Pad from Teala",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -62,27 +77,77 @@
                 "sections": [
                     {
                         "name": "Battle Tower - Defeat Palmer",
-                        "access_rules": ["S.S.Ticket"],
+						"chest_unopened_img": "/images/items/PalmerDim.png",
+						"chest_opened_img": "/images/items/Palmer.png",
+                        "access_rules": ["$tycoon"],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Hall - Defeat Argenta",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+						"chest_unopened_img": "/images/items/ArgentaDim.png",
+						"chest_opened_img": "/images/items/Argenta.png",
+                        "access_rules": ["HallPass"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Argenta Reward 1",
+                        "access_rules": ["HallPass"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Argenta Reward 2",
+                        "access_rules": ["HallPass"],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Arcade - Defeat Dahlia",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+						"chest_unopened_img": "/images/items/DahliaDim.png",
+						"chest_opened_img": "/images/items/Dahlia.png",
+                        "access_rules": ["$tokens"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dahlia Reward 1",
+                        "access_rules": ["$tokens"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dahlia Reward 2",
+                        "access_rules": ["$tokens"],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Factory - Defeat Thorton",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+						"chest_unopened_img": "/images/items/ThortonDim.png",
+						"chest_opened_img": "/images/items/Thorton.png",
+                        "access_rules": ["$coupons"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thorton Reward 1",
+                        "access_rules": ["$coupons"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thorton Reward 2",
+                        "access_rules": ["$coupons"],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Castle - Defeat Darach",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+						"chest_unopened_img": "/images/items/DarachDim.png",
+						"chest_opened_img": "/images/items/Darach.png",
+                        "access_rules": ["CastlePointCard,CastlePoints5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darach Reward 1",
+                        "access_rules": ["CastlePointCard,CastlePoints5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darach Reward 2",
+                        "access_rules": ["CastlePointCard,CastlePoints5"],
                         "item_count": 1
                     }
                 ],
@@ -111,16 +176,150 @@
                     },
                     {
                         "name": "Battle Frontier - BP Shop 2",
-                        "access_rules": ["S.S.Ticket,ProgDex3"],
+                        "access_rules": ["20BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 3",
+                        "access_rules": ["20BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 4",
+                        "access_rules": ["30BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 5",
+                        "access_rules": ["40BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 6",
+                        "access_rules": ["40BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 7",
+                        "access_rules": ["50BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 8",
+                        "access_rules": ["60BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 9",
+                        "access_rules": ["70BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 10",
+                        "access_rules": ["80BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 11",
+                        "access_rules": ["90BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 12",
+                        "access_rules": ["100BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 13",
+                        "access_rules": ["110BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 14",
+                        "access_rules": ["120BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 15",
+                        "access_rules": ["140BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 16",
+                        "access_rules": ["150BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 17",
+                        "access_rules": ["160BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 18",
+                        "access_rules": ["180BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 19",
+                        "access_rules": ["190BP"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Frontier - BP Shop 20",
+                        "access_rules": ["200BP"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Sinnoh",
-                        "x": 322,
-                        "y": 521,
-                        "size": 35
+                        "x": 317,
+                        "y": 515,
+                        "size": 27
+                    }
+                ]
+            },
+            {
+                "name": "Battle Castle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "CastlePrint"
+                ],
+                "sections": [
+                    {
+                        "name": "Battle Castle - Machine Item 1",
+                        "access_rules": ["CastlePoints6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Castle - Machine Item 2",
+                        "access_rules": ["CastlePoints7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Castle - Machine Item 3",
+                        "access_rules": ["CastlePoints8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Castle - Machine Item 4",
+                        "access_rules": ["CastlePoints9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Battle Castle - Machine Item 5",
+                        "access_rules": ["CastlePoints10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sinnoh",
+                        "x": 317,
+                        "y": 550,
+                        "size": 27
                     }
                 ]
             },
@@ -129,9 +328,6 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$battlezone"
-                ],
                 "sections": [
                     {
                         "name": "Item on Southwest Hill",
@@ -152,7 +348,7 @@
                         "name": "Hidden Item Between Two Bridges South of Ace Trainer",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -160,7 +356,7 @@
                         "name": "Hidden Item on Top Right of Grassy Hills Above Trainer Trio",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -173,7 +369,7 @@
                         "name": "Hidden Item in Corner of Grass Below House",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -201,13 +397,29 @@
                         "name": "Hidden Item in Center of Northernmost Grass Patch",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
                     {
                         "name": "Item on Northern Ledge",
                         "access_rules": ["$rockclimb"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -225,9 +437,6 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$battlezone"
-                ],
                 "sections": [
                     {
                         "name": "Item Behind Poke Mart",
@@ -243,7 +452,7 @@
                         "name": "Hidden Item in Corner of Southwest Trees",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -268,7 +477,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone"
+                    "^$route226"
                 ],
                 "sections": [
                     {
@@ -290,7 +499,7 @@
                         "name": "Hidden Item on Grassy Ledge Near Lake 1",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rockclimb,[$hidden]"],
                         "item_count": 1
                     },
@@ -298,7 +507,7 @@
                         "name": "Hidden Item on Grassy Ledge Near Lake 2",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rockclimb,[$hidden]"],
                         "item_count": 1
                     },
@@ -306,7 +515,7 @@
                         "name": "Hidden Item on Grassy Ledge Near Lake 3",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rockclimb,[$hidden]"],
                         "item_count": 1
                     },
@@ -314,7 +523,7 @@
                         "name": "Hidden Item on Beach Below Rock Climb Area",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$surf,[$hidden]"],
                         "item_count": 1
                     },
@@ -322,7 +531,7 @@
                         "name": "Hidden Item in the Tree Gap Northeast of Meister's House",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$surf,[$hidden]"],
                         "item_count": 1
                     }
@@ -341,34 +550,47 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$battlezone,$surf,$rocksmash"
-                ],
                 "sections": [
                     {
                         "name": "Item on Left of Island",
-                        "access_rules": [""],
+                        "access_rules": ["$surf,$rocksmash"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Island at Top of Island",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["[$hidden]"],
+                        "visibility_rules": ["$hidden_on"],
+                        "access_rules": ["$surf,$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Item on Right of Island Above Breakable Rock",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["[$hidden]"],
+                        "visibility_rules": ["$hidden_on"],
+                        "access_rules": ["$surf,$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
                     {
                         "name": "Item on Far Right of Island",
-                        "access_rules": [""],
+                        "access_rules": ["$surf,$rocksmash"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -386,41 +608,54 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$battlezone"
-                ],
                 "sections": [
                     {
                         "name": "Item in Center Behind Cut Tree",
-                        "access_rules": ["$surf,$cut"],
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     },
                     {
                         "name": "Item in Northeast",
-                        "access_rules": ["$surf"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "First Gift from Nugget Man",
-                        "access_rules": ["$surf"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Second Gift from Nugget Man",
-                        "access_rules": ["$surf"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Item Northeast of Pond",
-                        "access_rules": ["$surf,$cut"],
+                        "access_rules": ["$cut"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Item Southwest of Pond",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$surf,$cut,[$hidden]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -438,21 +673,34 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "^$battlezone,$surf"
-                ],
                 "sections": [
                     {
                         "name": "Item Across Pond",
-                        "access_rules": [""],
+                        "access_rules": ["$surf"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Item in Front of Villa",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Villa Berry Tree 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Villa Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Villa Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Villa Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -471,7 +719,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone,$surf"
+                    "$route228"
                 ],
                 "sections": [
                     {
@@ -483,7 +731,7 @@
                         "name": "Hidden Item on Small Rock Near Two-Tree Pond",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -501,7 +749,7 @@
                         "name": "Hidden Item in Grass West of Move Tutor's House",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -509,7 +757,7 @@
                         "name": "Hidden Item Below Northwest Trainer",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -517,7 +765,7 @@
                         "name": "Hidden Item in Southwest Grass",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["Bicycle,[$hidden]"],
                         "item_count": 1
                     },
@@ -525,7 +773,7 @@
                         "name": "Hidden Item in Southeast Corner by Rock",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["Bicycle,[$hidden]"],
                         "item_count": 1
                     },
@@ -536,28 +784,31 @@
                     },
                     {
                         "name": "Item in Northernmost Pit",
-                        "access_rules": ["Bicycle"],
+                        "access_rules": ["$mudslides"],
                         "item_count": 1
                     },
                     {
                         "name": "Hidden Item Above Rock Peak Ruins Left Bike Slope",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Peak Ruins - Item in Center",
-                        "access_rules": ["Bicycle"],
+                        "name": "Berry Tree 1",
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Peak Ruins - Hidden Item Near Top Right",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["Bicycle,[$hidden]"],
+                        "name": "Berry Tree 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Berry Tree 4",
                         "item_count": 1
                     }
                 ],
@@ -576,93 +827,112 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone,$surf"
+                    "$route228,$mudslides"
                 ],
                 "sections": [
                     {
-                        "name": "Item Southwest of Two Trainers",
+                        "name": "Entry - Item in Center",
                         "access_rules": [""],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item on Small Rock Near Two-Tree Pond",
+                        "name": "Entry - Hidden Item Near Top Right",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
                     {
-                        "name": "Item Behind Breakable Rocks",
-                        "access_rules": ["$rocksmash"],
+                        "name": "Item By Water Near Entrance",
+                        "access_rules": ["$rockpeakfirstitem"],
                         "item_count": 1
                     },
                     {
-                        "name": "Item Northeast of Move Tutor's House",
-                        "access_rules": [""],
+                        "name": "Item Down Corridor",
+                        "access_rules": ["$rockpeak1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item in Grass West of Move Tutor's House",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["[$hidden]"],
+                        "name": "Item in NE Hole 1",
+                        "access_rules": ["$rockpeak1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item Below Northwest Trainer",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["[$hidden]"],
+                        "name": "Item in NE Hole 2",
+                        "access_rules": ["$rockpeak1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item in Southwest Grass",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["Bicycle,[$hidden]"],
+                        "name": "Item By Pool Near Exit",
+                        "access_rules": ["$rockpeak1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item in Southeast Corner by Rock",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["Bicycle,[$hidden]"],
+                        "name": "Battle Regirock",
+                        "chest_unopened_img": "/images/items/Regirock.png",
+                        "chest_opened_img": "/images/items/RegirockDim.png",
+                        "access_rules": ["$rockpeak1,MastersMark"],
                         "item_count": 1
                     },
                     {
-                        "name": "Item Across Bike Rails South of Two Trainers",
-                        "access_rules": ["Bicycle"],
+                        "name": "Item Past SE Pool",
+                        "access_rules": ["$rockpeak2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Item in Northernmost Pit",
-                        "access_rules": ["Bicycle"],
+                        "name": "Item Between Bike Bridges",
+                        "access_rules": ["Bicycle,$rockpeak2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Hidden Item Above Rock Peak Ruins Left Bike Slope",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["[$hidden]"],
+                        "name": "Item West of Waterfall",
+                        "access_rules": ["Bicycle,$rockpeak2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Peak Ruins - Item in Center",
-                        "access_rules": ["Bicycle"],
+                        "name": "Item Under Bike Bridge",
+                        "access_rules": ["Bicycle,$rockpeak2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Peak Ruins - Hidden Item Near Top Right",
-                        "chest_unopened_img": "/images/items/Hidden.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
-                        "access_rules": ["Bicycle,[$hidden]"],
+                        "name": "Item Between Bike Jumps",
+                        "access_rules": ["Bicycle,$rockpeak2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "First Item Up Waterfall",
+                        "access_rules": ["Bicycle,$rockpeak2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 1",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 2",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 3",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 4",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 5",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waterfall Room 6",
+                        "access_rules": ["Bicycle,$rockpeak2,$waterfall"],
                         "item_count": 1
                     }
                 ],
@@ -681,7 +951,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone,$surf,Bicycle"
+                    "$route227"
                 ],
                 "sections": [
                     {
@@ -693,7 +963,7 @@
                         "name": "Hidden Item on Rock West of Grass on Ledges",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["[$hidden]"],
                         "item_count": 1
                     },
@@ -706,7 +976,7 @@
                         "name": "Hidden Item Northeast of West Pond",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rockclimb,[$hidden]"],
                         "item_count": 1
                     },
@@ -731,7 +1001,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone,$surf,Bicycle"
+                    "$route227"
                 ],
                 "sections": [
                     {
@@ -760,7 +1030,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$battlezone,$surf,Bicycle"
+                    "$stark1"
                 ],
                 "sections": [
                     {
@@ -787,7 +1057,7 @@
                         "name": "First Room - Hidden Item Behind Top Right Item",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -795,7 +1065,7 @@
                         "name": "Hidden Item on Central West Wall",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -803,7 +1073,7 @@
                         "name": "Hidden Item Down Southwest Rock Climb Slope",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,$rockclimb,[$hidden]"],
                         "item_count": 1
                     },
@@ -831,7 +1101,7 @@
                         "name": "Hidden Item to Left of Southeast Pit",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -844,7 +1114,7 @@
                         "name": "Hidden Item on Center East Rock",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -857,7 +1127,7 @@
                         "name": "Hidden Item on Rock Next to Center Pit",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -865,7 +1135,7 @@
                         "name": "Hidden Item on Northeast Hill",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     },
@@ -883,7 +1153,7 @@
                         "name": "Hidden Item on Bottom Right Rock in Northwest Corner",
                         "chest_unopened_img": "/images/items/Hidden.png",
                         "chest_opened_img": "/images/items/open.png",
-                        "visibility_rules": ["$hidden_on,^$battlezoneon"],
+                        "visibility_rules": ["$hidden_on"],
                         "access_rules": ["$rocksmash,[$hidden]"],
                         "item_count": 1
                     }

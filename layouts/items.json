@@ -118,12 +118,13 @@
 				"item_width": 36,
 				"rows": [
 					[
+						
+						"RegirockDefeated",
+						"palmer",
 						"argenta",
 						"dahlia",
 						"thorton",
 						"darach",
-						"regirock",
-						"palmer"
 					]
 				]
 			}
@@ -145,10 +146,7 @@
 				"rows": [
 					[
 						"opt_hidden",
-						"opt_dowsing",
-						"opt_217",
-						"opt_bz",
-						"opt_victory"
+						"opt_dowsing"
 					],
 					[
 						"opt_flash",

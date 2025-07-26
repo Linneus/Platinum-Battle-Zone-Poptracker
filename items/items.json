@@ -597,31 +597,31 @@
 			{
 				"name": "6 Castle Points",
 				"img": "/images/Items/CastlePoints06.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "CastlePoints6"
 			},
 			{
 				"name": "7 Castle Points",
 				"img": "/images/Items/CastlePoints07.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "CastlePoints7"
 			},
 			{
 				"name": "8 Castle Points",
 				"img": "/images/Items/CastlePoints08.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "CastlePoints8"
 			},
 			{
 				"name": "9 Castle Points",
 				"img": "/images/Items/CastlePoints09.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "CastlePoints9"
 			},
 			{
 				"name": "10 Castle Points",
 				"img": "/images/Items/CastlePoints10.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "CastlePoints10"
 			}
 		],
@@ -649,115 +649,115 @@
 			{
 				"name": "20 BP",
 				"img": "/images/Items/BP020.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "20BP"
 			},
 			{
 				"name": "30 BP",
 				"img": "/images/Items/BP030.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "30BP"
 			},
 			{
 				"name": "40 BP",
 				"img": "/images/Items/BP040.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "40BP"
 			},
 			{
 				"name": "50 BP",
 				"img": "/images/Items/BP050.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "50BP"
 			},
 			{
 				"name": "60 BP",
 				"img": "/images/Items/BP060.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "60BP"
 			},
 			{
 				"name": "70 BP",
 				"img": "/images/Items/BP070.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "70BP"
 			},
 			{
 				"name": "80 BP",
 				"img": "/images/Items/BP080.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "80BP"
 			},
 			{
 				"name": "90 BP",
 				"img": "/images/Items/BP090.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "90BP"
 			},
 			{
 				"name": "100 BP",
 				"img": "/images/Items/BP100.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "100BP"
 			},
 			{
 				"name": "110 BP",
 				"img": "/images/Items/BP110.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "110BP"
 			},
 			{
 				"name": "120 BP",
 				"img": "/images/Items/BP120.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "120BP"
 			},
 			{
 				"name": "130 BP",
 				"img": "/images/Items/BP130.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "130BP"
 			},
 			{
 				"name": "140 BP",
 				"img": "/images/Items/BP140.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "140BP"
 			},
 			{
 				"name": "150 BP",
 				"img": "/images/Items/BP150.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "150BP"
 			},
 			{
 				"name": "160 BP",
 				"img": "/images/Items/BP160.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "160BP"
 			},
 			{
 				"name": "170 BP",
 				"img": "/images/Items/BP170.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "170BP"
 			},
 			{
 				"name": "180 BP",
 				"img": "/images/Items/BP180.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "180BP"
 			},
 			{
 				"name": "190 BP",
 				"img": "/images/Items/BP190.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "190BP"
 			},
 			{
 				"name": "200 BP",
 				"img": "/images/Items/BP200.png",
-				"inherit_codes": false,
+				"inherit_codes": true,
 				"codes": "200BP"
 			}
 		],
@@ -785,7 +785,7 @@
 		"codes": "FactoryPrint"
 	},
                     
-                    {
+    {
 		"name": "CastlePrint",
 		"type": "toggle",
 		"img": "/images/Items/CastlePrint.png",
@@ -796,35 +796,35 @@
 		"name": "Argenta Defeated",
 		"type": "toggle",
 		"img": "/images/Items/Argenta.png",
-		"codes": "argenta"
+		"codes": "HallPrint"
 	},
 
 	{
 		"name": "Dahlia Defeated",
 		"type": "toggle",
 		"img": "/images/Items/Dahlia.png",
-		"codes": "dahlia"
+		"codes": "ArcadePrint"
 	},
 
 	{
 		"name": "Thorton Defeated",
 		"type": "toggle",
 		"img": "/images/Items/Thorton.png",
-		"codes": "thorton"
+		"codes": "FactoryPrint"
 	},
 	
 	{
 		"name": "Darach Defeated",
 		"type": "toggle",
 		"img": "/images/Items/Darach.png",
-		"codes": "darach"
+		"codes": "CastlePrint"
 	},
 
 	{
 		"name": "Regirock Defeated",
 		"type": "toggle",
 		"img": "/images/Items/Regirock.png",
-		"codes": "regirock"
+		"codes": "RegirockDefeated"
 	},
 
 	{
