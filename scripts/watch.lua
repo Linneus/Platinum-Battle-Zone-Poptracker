@@ -1,6 +1,6 @@
 HOSTED_ITEMS = {
-"regirock", "HallPrint", "ArcadePrint", "FactoryPrint",
-"CastlePrint"
+"regirock_hosted", "argenta_hosted", "dahlia_hosted", "thorton_hosted",
+"darach_hosted"
 
 }
 
