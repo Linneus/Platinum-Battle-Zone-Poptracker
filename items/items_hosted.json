@@ -5,7 +5,7 @@
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "img": "images/Items/Regirock.png",
-        "codes": "event_regirock_hosted"
+        "codes": "regirock_hosted"
     },
     {
         "name": "Event: Beat Argenta",
@@ -13,7 +13,7 @@
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "img": "images/Items/Argenta.png",
-        "codes": "argenta"
+        "codes": "argenta_hosted"
     },
     {
         "name": "Event: Beat Dahlia",
@@ -21,7 +21,7 @@
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "img": "images/Items/Dahlia.png",
-        "codes": "dahlia"
+        "codes": "dahlia_hosted"
     },
     {
         "name": "Event: Beat Thorton",
@@ -29,7 +29,7 @@
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "img": "images/Items/Thorton.png",
-        "codes": "thorton"
+        "codes": "thorton_hosted"
     },
     {
         "name": "Event: Beat Darach",
@@ -37,94 +37,14 @@
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
         "img": "images/Items/Darach.png",
-        "codes": "darach"
+        "codes": "darach_hosted"
     },
     {
-        "name": "Event: Defeat Mars at Lake Verity",
+        "name": "Event: Beat Palmer",
         "type": "toggle",
         "img_mods": "@disabled",
         "disabled_img_mods": "none",
-        "img": "images/Items/Mars.png",
-        "codes": "event_mars_hosted"
-    },
-    {
-        "name": "Event: Meet Jupiter at Lake Acuity",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Jupiter.png",
-        "codes": "event_jupiter_hosted"
-    },
-    {
-        "name": "Event: Defeated Grunts Blocking Galactic Warehouse",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Grunt2.png",
-        "codes": "event_warehouse_hosted"
-    },
-    {
-        "name": "Event: Startle Grunt Outside Galactic HQ",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Grunt2.png",
-        "codes": "event_galactichq_hosted"
-    },
-    {
-        "name": "Event: Release Guardians from Galactic HQ",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Guardians.png",
-        "codes": "event_guardians_hosted"
-    },
-    {
-        "name": "Event: Clear Distortion World",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Giratina.png",
-        "codes": "event_distortion_hosted"
-    },
-    {
-        "name": "Event Toggle",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/azureflute.png",
-        "codes": "event_toggle_hosted"
-    },
-    {
-        "name": "Event: Talk to Oak in PalPark",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Oak.png",
-        "codes": "event_palpark_hosted"
-    },
-    {
-        "name": "Event: Become Champion",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Cynthia.png",
-        "codes": "event_cynthia_hosted"
-    },
-    {
-        "name": "Event: Defeat Arceus in Hall of Origin",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/Arceus.png",
-        "codes": "event_arceus_hosted"
-    },
-    {
-        "name": "Event: Bomb News",
-        "type": "toggle",
-        "img_mods": "@disabled",
-        "disabled_img_mods": "none",
-        "img": "images/Items/tvon.png",
-        "codes": "event_bombs_hosted"
+        "img": "images/Items/Palmer.png",
+        "codes": "palmer_hosted"
     }
 ]
