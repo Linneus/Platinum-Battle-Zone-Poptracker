@@ -159,9 +159,9 @@ sectionIDToAPID = -- tracker location name = apID
  ["Sinnoh/Rock Peak Ruins/Waterfall Room 4"] = 157,
  ["Sinnoh/Rock Peak Ruins/Waterfall Room 5"] = 158,
  ["Sinnoh/Rock Peak Ruins/Waterfall Room 6"] = 159,
- ["Sinnoh/Battle Frontier/Battle Castle - Machine Item 1"] = 160,
- ["Sinnoh/Battle Frontier/Battle Castle - Machine Item 2"] = 161,
- ["Sinnoh/Battle Frontier/Battle Castle - Machine Item 3"] = 162,
- ["Sinnoh/Battle Frontier/Battle Castle - Machine Item 4"] = 163,
- ["Sinnoh/Battle Frontier/Battle Castle - Machine Item 5"] = 164
+ ["Sinnoh/Battle Castle/Machine Item 1"] = 160,
+ ["Sinnoh/Battle Castle/Machine Item 2"] = 161,
+ ["Sinnoh/Battle Castle/Machine Item 3"] = 162,
+ ["Sinnoh/Battle Castle/Machine Item 4"] = 163,
+ ["Sinnoh/Battle Castle/Machine Item 5"] = 164
 }

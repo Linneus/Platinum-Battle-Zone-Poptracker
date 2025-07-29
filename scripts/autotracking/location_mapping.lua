@@ -159,9 +159,9 @@ LOCATION_MAPPING =
 [157] = {"@Sinnoh/Rock Peak Ruins/Waterfall Room 4"},
 [158] = {"@Sinnoh/Rock Peak Ruins/Waterfall Room 5"},
 [159] = {"@Sinnoh/Rock Peak Ruins/Waterfall Room 6"},
-[160] = {"@Sinnoh/Battle Frontier/Battle Castle - Machine Item 1"},
-[161] = {"@Sinnoh/Battle Frontier/Battle Castle - Machine Item 2"},
-[162] = {"@Sinnoh/Battle Frontier/Battle Castle - Machine Item 3"},
-[163] = {"@Sinnoh/Battle Frontier/Battle Castle - Machine Item 4"},
-[164] = {"@Sinnoh/Battle Frontier/Battle Castle - Machine Item 5"}
+[160] = {"@Sinnoh/Battle Castle/Machine Item 1"},
+[161] = {"@Sinnoh/Battle Castle/Machine Item 2"},
+[162] = {"@Sinnoh/Battle Castle/Machine Item 3"},
+[163] = {"@Sinnoh/Battle Castle/Machine Item 4"},
+[164] = {"@Sinnoh/Battle Castle/Machine Item 5"}
 }
