@@ -223,6 +223,16 @@
 				"name": "",
 				"map_locations": [{"map": "route226", "x": 1099, "y": 94}],
 				"sections": [{"ref": "Sinnoh/Route 226/Hidden Item in the Tree Gap North of Meister's House"}]
+			},
+			{
+				"name": "",
+				"map_locations": [{"map": "route226", "x": 245, "y": 22, "size": 25}],
+				"sections": [
+					{"ref": "Sinnoh/Route 226/Berry Tree 1"},
+					{"ref": "Sinnoh/Route 226/Berry Tree 2"},
+					{"ref": "Sinnoh/Route 226/Berry Tree 3"},
+					{"ref": "Sinnoh/Route 226/Berry Tree 4"}
+					]
 			}
 		]
 	},
@@ -241,7 +251,7 @@
 			},
 			{
 				"name": "",
-				"map_locations": [{"map": "route227", "x": 217, "y": 357}],
+				"map_locations": [{"map": "route227", "x": 217, "y": 347}],
 				"sections": [{"ref": "Sinnoh/Route 227/Hidden Item Northeast of West Pond"}]
 			},
 			{
