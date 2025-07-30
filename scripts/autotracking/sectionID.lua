@@ -1,6 +1,6 @@
 sectionIDToAPID = -- tracker location name = apID
 {
- ["Sinnoh/Battle Tower/Defeat Palmer"] = 1,
+ ["Sinnoh/Battle Frontier/Battle Tower - Defeat Palmer"] = 1,
  ["Sinnoh/Fight Area/Gift from Woman in Poke Mart"] = 2,
  ["Sinnoh/Fight Area/Super Rod from Fisherman"] = 3,
  ["Sinnoh/Route 225/Item on Southwest Hill"] = 4,
